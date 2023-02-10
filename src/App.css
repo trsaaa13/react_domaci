@@ -32,7 +32,27 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.naocare-div {
+  display: flex;
+  margin-top: 10%;
+}
+
+.naocare {
+  width: 15%;
+  margin-left: 14%;
+}
+
+img {
+  width: 350px;
+}
+
+.naocare h1 {
+  color: #c30b0b;
 }
