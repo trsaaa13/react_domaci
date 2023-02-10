@@ -41,7 +41,7 @@
 
 .naocare-div {
   display: flex;
-  margin-top: 10%;
+  margin-top: 4%;
 }
 
 .naocare {
@@ -55,4 +55,10 @@ img {
 
 .naocare h1 {
   color: #c30b0b;
+}
+
+#homepagenav {
+  color: white;
+  margin-left: 48%;
+  font-size: 27px;
 }

@@ -26,7 +26,7 @@ function Naocare() {
                         <img src={n.slika} alt="naocareslika" />
                         <h4>{n.pol}</h4>
                         <h2>{n.cena} RSD</h2>
-                        <button type="button" onClick={() => obrisiNaocare(n.id)}>Obriši</button>
+                        <button type="button" className="btn btn-danger btn-lg" onClick={() => obrisiNaocare(n.id)}>Obriši</button>
                     </div>
                 );
             })}
